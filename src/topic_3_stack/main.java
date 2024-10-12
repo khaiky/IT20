@@ -22,6 +22,8 @@ package topic_3_stack;
 				        	 System.out.println("Stack size is: " + stack.size());
 			                 System.out.println("-------------------");
 			                 break;
+				        case 2:
+				        	
 }
   }
  }
