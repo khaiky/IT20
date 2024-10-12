@@ -35,8 +35,11 @@ package topic_3_stack;
 		                     System.out.println("-------------------------");
 		                     
 				        case 3:
+				        	if(!stack.isEmpty()) {
+			         	    	 System.out.println("Top element: " + stack.peek());
 				        	
 }
   }
  }
+		 }
 	}
