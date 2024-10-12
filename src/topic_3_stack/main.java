@@ -43,6 +43,8 @@ package topic_3_stack;
 			           	   }
 			           	   System.out.println("---------------------------");
 			           	   break;
+			           	   
+				        case 4:  
 }
   }
  }
