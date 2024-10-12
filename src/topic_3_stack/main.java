@@ -16,6 +16,11 @@ package topic_3_stack;
 			                    + " 3. Pop"
 			                   +  " 4. Exit");
 			            int choice = sc.nextInt();
+			            switch(choice) {
+				        
+				        case 1:      
+			            
 }
-}
+  }
+ }
 	}
