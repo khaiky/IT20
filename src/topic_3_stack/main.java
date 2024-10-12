@@ -8,6 +8,14 @@ package topic_3_stack;
 	public class main {
 		 public static void main(String[] args) { 
 		        Scanner sc = new Scanner(System.in);
-		       
+		      
+		        while(true) {    
+			           System.out.println("Choose what you wanna do: "
+			                    + " 1. Size"
+			                    + " 2. Push"
+			                    + " 3. Pop"
+			                   +  " 4. Exit");
+			            int choice = sc.nextInt();
 }
 }
+	}
