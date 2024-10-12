@@ -19,7 +19,9 @@ package topic_3_stack;
 			            switch(choice) {
 				        
 				        case 1:      
-			            
+				        	 System.out.println("Stack size is: " + stack.size());
+			                 System.out.println("-------------------");
+			                 break;
 }
   }
  }
