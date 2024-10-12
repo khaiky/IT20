@@ -44,7 +44,14 @@ package topic_3_stack;
 			           	   System.out.println("---------------------------");
 			           	   break;
 			           	   
-				        case 4:  
+				        case 4:
+				        	System.out.println("Thank you!");
+				        	System.exit(0);
+				        	break;
+				        	
+				        default:
+				   
+				        	 System.out.println("Error");
 }
   }
  }
