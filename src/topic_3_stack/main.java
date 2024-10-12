@@ -30,6 +30,9 @@ package topic_3_stack;
 				        	 System.out.println("Add number: ");
 			        	     int num = sc.nextInt();
 			        	     System.out.println("Pushed value: " + stack.size());
+			        	     
+				        case 3:
+				        	
 }
   }
  }
