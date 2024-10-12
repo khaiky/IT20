@@ -7,7 +7,10 @@ package topic_3_stack;
 
 	public class main {
 		 public static void main(String[] args) { 
-		        Scanner sc = new Scanner(System.in);
+			 Scanner sc = new Scanner(System.in);
+			  Stack  stack = new Stack();
+		        System.out.println("Hello, Welcome!!");
+		       
 		      
 		        while(true) {    
 			           System.out.println("Choose what you wanna do: "
@@ -18,12 +21,15 @@ package topic_3_stack;
 			            int choice = sc.nextInt();
 			            switch(choice) {
 				        
-				        case 1:      
+			            case 1:
 				        	 System.out.println("Stack size is: " + stack.size());
 			                 System.out.println("-------------------");
 			                 break;
+				       
 				        case 2:
-				        	
+				        	 System.out.println("Add number: ");
+			        	     int num = sc.nextInt();
+			        	     System.out.println("Pushed value: " + stack.size());
 }
   }
  }
