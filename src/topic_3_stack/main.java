@@ -37,9 +37,14 @@ package topic_3_stack;
 				        case 3:
 				        	if(!stack.isEmpty()) {
 			         	    	 System.out.println("Top element: " + stack.peek());
-				        	
+			         	    	System.out.println("Popped element: " + stack.pop());
+				        	  } else {
+			           		   System.out.println("-----------------------");
+			           	   }
+			           	   System.out.println("---------------------------");
+			           	   break;
 }
   }
  }
-		 }
+	
 	}
