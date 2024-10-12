@@ -1,29 +1,30 @@
 package topic_3_stack;
 
 public class Stack {
-	private int maxSize;
+    private int maxSize;
     private int[] stackArray;
     private int top;
-    
-    public void Stack(int size) {
+
+    // Constructor should be declared without a return type (void)
+    public Stack(int size) {
         this.maxSize = size;
         this.stackArray = new int[maxSize];
-        this.top = -1; 
+        this.top = -1;
     }
-    
-     public boolean isEmpty() {
+
+    public boolean isEmpty() {
         return (top == -1);
     }
 
     public boolean isFull() {
         return (top == maxSize - 1);
     }
-    
+
     public int size() {
         return top + 1;
     }
-    
-     public void push(int value) {
+
+    public void push(int value) {
         if (isFull()) {
             System.out.println("Stack is full. Cannot push " + value);
             return;
@@ -31,56 +32,20 @@ public class Stack {
         stackArray[++top] = value;
     }
 
-
     public int peek() {
-   if (isEmpty()) {
-       System.out.println("Stack is empty. Cannot peek.");
-       return -1; 
-   }
-   return stackArray[top];
+        if (isEmpty()) {
+            System.out.println("Stack is empty. Cannot peek.");
+            return -1;
+        }
+        return stackArray[top];
+    }
 
-
-   public class Stack {
-		private int maxSize;
-	    private int[] stackArray;
-	    private int top;
-	    
-	    public void Stack(int size) {
-	        this.maxSize = size;
-	        this.stackArray = new int[maxSize];
-	        this.top = -1; 
-	    }
-	    
-	     public boolean isEmpty() {
-	        return (top == -1);
-	    }
-
-	    public boolean isFull() {
-	        return (top == maxSize - 1);
-	    }
-	    
-	    public int size() {
-	        return top + 1;
-	    }
-	    
-	     public void push(int value) {
-	        if (isFull()) {
-	            System.out.println("Stack is full. Cannot push " + value);
-	            return;
-	        }
-	        stackArray[++top] = value;
-	    }
-	     
-	     public int peek() {
-	        if (isEmpty()) {
-	            System.out.println("Stack is empty. Cannot peek.");
-	            return -1; 
-	        }
-	        return stackArray[top];
-	    
-	     }
+    // The pop method was missing in the original code
+    public int pop() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty. Cannot pop.");
+            return -1;
+        }
+        return stackArray[top--];
+    }
 }
-}
-}
-	     
-
